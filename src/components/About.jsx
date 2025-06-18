@@ -30,10 +30,9 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
       <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        I'm a skilled software developer with experience in TypeScript and JavaScript, and expertise in frameworks like
-        React, Node.js, and Three.js. I'm a quick learner and collaborate closely with clients to create efficient,
-        scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to
-        life!
+        저는 사용자 경험을 최우선으로 생각하는 프론트엔드 개발자입니다. JavaScript에 깊은 이해와 웹 디자인에 대한 꾸준한
+        관심을 바탕으로, 사용자에게 직관적이고 매력적인 경험을 제공하는 데 주력합니다. 이를 위해 React, Three.js와 같은
+        주요 기술 스택을 능숙하게 활용하여 웹 애플리케이션을 개발합니다.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

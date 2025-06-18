@@ -14,10 +14,10 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915eff]">Gyusung</span>
+            개발자 <span className="text-[#915eff]">이규성</span>입니다
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visual, user <br className="sm:block hidden" /> interfaces and web applications
+            3D 비주얼, 사용자 인터페이스, <br className="sm:block hidden" /> 웹 애플리케이션을 개발하고 있어요.
           </p>
         </div>
       </div>
